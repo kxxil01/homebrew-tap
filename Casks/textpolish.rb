@@ -1,6 +1,6 @@
 cask "textpolish" do
-  version "0.0.17"
-  sha256 "7e31155cf193cabfa016c1ad8d6c95b7162c5db0f1d7d3223aaa064bd19f1ec5"
+  version "0.0.19"
+  sha256 "1becb15b4805099c5e1b29c5c48c55011c271250eb8acc7451f39f5aa27a80e0"
 
   url "https://github.com/kxxil01/TextPolish/releases/download/v#{version}/TextPolish.app.zip"
   name "TextPolish"
