@@ -1,26 +1,26 @@
 class Kubectui < Formula
   desc "Keyboard-first terminal UI for Kubernetes operations"
   homepage "https://github.com/kxxil01/Kubectui"
-  version "1.1.14"
+  version "1.1.16"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kxxil01/Kubectui/releases/download/v#{version}/kubectui-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "ccea093e2d0d6893d2d173ca22ae3aee56ebc3d6e1f67d89eaddf1940522ac95"
+      sha256 "d6e5fb5f82c7379d026bacd94391862be13d7eb88fd761a528ac7de7069607a7"
     else
       url "https://github.com/kxxil01/Kubectui/releases/download/v#{version}/kubectui-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "e26fbf47cc11eb3cc524a0cbbd5453fedb5a496dadb19298ba69bbeeae39627a"
+      sha256 "073fc71ab408c7c4f386f215c87e8020135c53597f4982f6991c386cb6a54ae3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/kxxil01/Kubectui/releases/download/v#{version}/kubectui-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a45e7273899be94257a5ac26e60a303e908355d3dcf2b0b77b8eb7ae20d34d03"
+      sha256 "4b9e0d105dc3ae468ee6d10bda1fed9df6c0f55d1359277b4eab961f49fa3e51"
     else
       url "https://github.com/kxxil01/Kubectui/releases/download/v#{version}/kubectui-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c2ae2e05ab44ab6f3b62f834e74da1892947576f927c49ac45234da24e41a83f"
+      sha256 "d1f91921b12be6a47d349c53260609d3bd197256a284f9a425a5a1a71d17815d"
     end
   end
 
