@@ -5,21 +5,21 @@ class Kubectui < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.19/kubectui-v1.1.19-aarch64-apple-darwin.tar.gz"
-      sha256 "6dd54810b38d1975c2855a74b6bfa32861f43e86cc942eae02cb6ba71276d1d3"
+      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.20/kubectui-v1.1.20-aarch64-apple-darwin.tar.gz"
+      sha256 "8ecec9c115270cf73495b1348e2f990f9fe778a71f9e839ac1999d21256b2f78"
     else
-      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.19/kubectui-v1.1.19-x86_64-apple-darwin.tar.gz"
-      sha256 "0d3c12e65604c8d8210f5b27db20ff755501c9d97579cc7bc85e3343ee14c33f"
+      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.20/kubectui-v1.1.20-x86_64-apple-darwin.tar.gz"
+      sha256 "76f39a98f6e4a09a2a6e25b43229d11f007ea94c579c5dafeb72621905808778"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.19/kubectui-v1.1.19-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c23152f32a1f89882aa2d979d28a780690132350676c5a831f6955e5c292eca4"
+      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.20/kubectui-v1.1.20-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "906e2dec4514ce1364ca8ef037b8da8aef2b01ba131970c6595a198ce384ebc6"
     else
-      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.19/kubectui-v1.1.19-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3d1bc5e310290ca15944ff179a8d462c925ce1d7bec774e06803e8e61bf8c16a"
+      url "https://github.com/kxxil01/Kubectui/releases/download/v1.1.20/kubectui-v1.1.20-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "64894ca6553b22fbac5e9a7c0078b005cd891c04e536ee332dbca8a295d97bb2"
     end
   end
 
