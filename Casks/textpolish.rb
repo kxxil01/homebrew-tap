@@ -1,8 +1,8 @@
 cask "textpolish" do
-  version "0.0.58"
-  sha256 "289156dcc649cb3e005eb63fc9c549ec9f0823891eac9f583cc2ff97cd9d48d0"
+  version "0.0.59"
+  sha256 "23c3351cb8217e1418e23c278137e9d02e19fb891956ca27565de80dc50ba303"
 
-  url "https://github.com/kxxil01/TextPolish/releases/download/0.0.58/TextPolish.app.zip"
+  url "https://github.com/kxxil01/TextPolish/releases/download/0.0.59/TextPolish.app.zip"
   name "TextPolish"
   desc "Grammar correction anywhere on macOS"
   homepage "https://github.com/kxxil01/TextPolish"
